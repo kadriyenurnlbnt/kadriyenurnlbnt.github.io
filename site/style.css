@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    
+   /*font-family: '',sans-serif;*/
+}
+a,
+a::link,
+a::visited{
+    text-decoration: none;
+    outline: none;
+    border: 0;
+}
+
+ul,
+li{
+    list-style: none;
+    margin: 2px;
+    padding: 0;
+}
+section,
+span,
+p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px 0;
+    
+}
+.header{
+    background-color:white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+  
+
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    background-color: orchid;
+  
+    
+    
+}
+
+    
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    margin-left: 27px;
+    padding: 14px 16px;
+}
+li.first-child{
+    margin-right: 70px;
+}
+a{
+    color: black;
+    font-weight: bold;
+    font-size: 20;
+    text-decoration:none;
+   
+}
+.header-text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 3.5rem;
+    font-weight: 25;
+    line-height: 0.4;
+    letter-spacing: 2px;
+    /*font-family: 'Herr Von Muellerhoff', cursive;*/
+    color: black;
+    padding: 15px;
+
+}
+ul li a:hover {
+  background-color: ghostwhite;
+  padding: 15px;
+}
+
+
+
+
+
